@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: whitesmoke;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Header */
+
+.header {
+  position: fixed;
+  top: 0;
+  background: #fff;
+  width: 100vw;
+  box-shadow: 0 0 10px 5px rgb(208, 208, 208);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.heading {
+  width: 80%;
+  max-width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hex {
+  margin-left: 2rem;
+}
+
+.name,
+.simple,
+.hex {
+  cursor: pointer;
+}
+
+/* Color Picker */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.color-picker {
+  background: rgb(31, 31, 31);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  font-size: 2rem;
+  border-radius: 10px;
+}
+
+.background-color {
+  color: #fff;
+}
+
+.color {
+  color: rgb(119, 168, 193);
+  margin-left: 1rem;
+  letter-spacing: 5px;
+}
+
+.btn {
+  margin-top: 1.5rem;
+  background: whitesmoke;
+  border: 2px solid rgb(31, 31, 31);
+  padding: 0.5rem 1rem;
+  border-radius: 7px;
+  color: rgb(31, 31, 31);
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
