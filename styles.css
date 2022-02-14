@@ -87,12 +87,24 @@ body {
 .btn {
   margin-top: 1.5rem;
   background: whitesmoke;
-  border: 2px solid rgb(31, 31, 31);
+  border: 3px solid rgb(31, 31, 31);
   padding: 0.5rem 1rem;
   border-radius: 7px;
   color: rgb(31, 31, 31);
-  font-weight: bold;
+  font-size: 1.2rem;
+  font-weight: bolder;
   letter-spacing: 1px;
   cursor: pointer;
   user-select: none;
+}
+
+.btn:active {
+  transform: translateY(2px);
+}
+
+/* JS */
+
+.simple-active,
+.hex-active {
+  color: aquamarine;
 }
