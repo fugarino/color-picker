@@ -6,6 +6,9 @@
 
 body {
   font-family: sans-serif;
+}
+
+.app {
   background: whitesmoke;
   height: 100vh;
   display: flex;
@@ -78,7 +81,7 @@ body {
 .color {
   color: rgb(119, 168, 193);
   margin-left: 1rem;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
 }
 
 .btn {
@@ -91,4 +94,5 @@ body {
   font-weight: bold;
   letter-spacing: 1px;
   cursor: pointer;
+  user-select: none;
 }
